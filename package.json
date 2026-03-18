@@ -1,0 +1,23 @@
+{
+  "name": "nueva-carpeta",
+  "version": "1.0.0",
+  "main": "src/Desktop/main.js",
+  "scripts": {
+    "server": "nodemon src/Server/server.js",
+    "desktop": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^38.2.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}

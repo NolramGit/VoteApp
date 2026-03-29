@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Acceso Asamblea</title>
+    <title>Votación</title>
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
@@ -14,82 +14,9 @@
         <div class="card-header">
             <p class="residential-name">EDIFICIO AL LADO DEL CENTRO</p>
         </div>
-        <div id="section-login" class="card-body">
-            <div>
-                <h1 class="welcome-text">¡Bienvenido!</h1>
-                <div class="icon-circle">
-                    <svg width="50" height="40" viewBox="0 0 512 512" fill="white">
-                        <path
-                            d="M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zm-47.2 114.2l-184 184c-6.2 6.2-16.4 6.2-22.6 0l-104-104c-6.2-6.2-6.2-16.4 0-22.6l22.6-22.6c6.2-6.2 16.4-6.2 22.6 0l70.1 70.1 150.1-150.1c6.2-6.2 16.4-6.2 22.6 0l22.6 22.6c6.3 6.3 6.3 16.4 0 22.6z" />
-                    </svg>
-                </div>
-                <p class="instruction">Ingresa el código de 6 dígitos para acceder a la asamblea.</p>
-            </div>
-
-            <div class="otp-container">
-                <input type="text" maxlength="2" class="otp-input" placeholder="0">
-                <input type="text" maxlength="2" class="otp-input" placeholder="0">
-                <input type="text" maxlength="2" class="otp-input" placeholder="0">
-                <input type="text" maxlength="2" class="otp-input" placeholder="0">
-                <input type="text" maxlength="2" class="otp-input" placeholder="0">
-                <input type="text" maxlength="1" class="otp-input" placeholder="0">
-            </div>
-
-            <button class="verify-btn">Verificar Acceso</button>
-        </div>
-        <div id="section-info" class="card-body hidden">
-            <h1 class="welcome-text">¡Bienvenido!</h1>
-            <div class="user-badge">
-                <div class="user-avatar" id="user-initials">--</div>
-                <h2 id="user-name">Cargando...</h2>
-                <p class="user-label">Propietario(a) Autorizado(a)</p>
-            </div>
-            <div class="data-grid">
-                <div class="data-item">
-                    <span class="data-label">Apartamento</span>
-                    <span class="data-value" id="user-apto">--</span>
-                </div>
-                <div class="data-separator"></div>
-                <div class="data-item">
-                    <span class="data-label">Coeficiente</span>
-                    <span class="data-value" id="user-coef">--</span>
-                </div>
-            </div>
-            <button class="verify-btn" id="to-vote">Ir a la votación</button>
-        </div>
-
-        <!-- <div id="section-vote" class="card-body hidden">
-            <h1 class="welcome-text">Votación en Curso</h1>
-            <p class="instruction">Selecciona una opción para registrar tu decisión.</p>
-
-            <div class="vote-options">
-                <label class="vote-option">
-                    <input type="radio" name="vote" value="SI" class="radio-input">
-                    <div class="option-content">
-                        <span class="radio-visual"></span>
-                        <span class="option-text">SÍ</span>
-                    </div>
-                </label>
-
-                <label class="vote-option">
-                    <input type="radio" name="vote" value="NO" class="radio-input">
-                    <div class="option-content">
-                        <span class="radio-visual"></span>
-                        <span class="option-text">NO</span>
-                    </div>
-                </label>
-
-                <label class="vote-option">
-                    <input type="radio" name="vote" value="BLANCO" class="radio-input">
-                    <div class="option-content">
-                        <span class="radio-visual"></span>
-                        <span class="option-text">EN BLANCO</span>
-                    </div>
-                </label>
-            </div>
-            <button class="verify-btn" id="submit-vote-btn">Enviar Voto</button>
-        </div> -->
-        <div id="section-vote" class="card-body hidden">
+        <h1 class="welcome-text">¡Bienvenido!</h1>
+        
+        <div id="section-vote" class="card-body">
             <h1 class="welcome-text">Votación en Curso</h1>
             <p class="instruction">Selecciona una opción para registrar tu decisión.</p>
 

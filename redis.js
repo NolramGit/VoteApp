@@ -1,6 +1,6 @@
 const { createClient } = require('redis');
 
-const url = process.env.REDIS_URL || 'redis://default:roYFOjOFpohrNImlXBhbcSZSWLAgJbZB@redis.railway.internal:6379';
+const url = 'redis://default:roYFOjOFpohrNImlXBhbcSZSWLAgJbZB@redis.railway.internal:6379' || "";
 
 const redisClient = createClient({
     url: url
